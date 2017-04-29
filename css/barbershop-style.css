@@ -1,0 +1,410 @@
+body {
+	font-size: 14px;
+	color: #f7f4f1;
+	font-weight: normal;
+	font-family: "PTSans" sans-serif;
+	line-height: 24px;
+		
+}
+
+h1 {
+	font-size: 30px;
+	color: #000000;
+	font-weight: bold;
+	font-family: "PTSans" sans-serif;
+	line-height: 42px;
+}
+
+h2 {
+	font-size: 24px;
+	color: #000000;
+	font-weight: bold;
+	font-family: "PTSans" sans-serif;
+	line-height: 30px;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;	
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;	
+}
+
+.main-header-index {
+	margin-bottom: 60px;	
+}
+
+.main-navigation{
+	float: left;
+	width: 780px;
+	/* Только для оформления сетки */
+  	min-height: 70px;	
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+	/* Только для оформления сетки */
+  	min-height: 70px;
+}
+
+.main-logo {
+	width: 368px;
+	min-height: 204px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+.features {
+	margin-bottom: 80px;
+}
+
+.features-item {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	/* Только для оформления сетки */
+	min-height: 175px;	
+}
+
+.features-item:last-child {
+	margin-right: 0px;
+}
+
+.index-content {
+	padding: 50px 80px;
+	margin-bottom: 35px;
+	background: url("../img/background-main.png") repeat; 
+}
+
+.index-content-left {
+	float: left;
+	width: 380px;
+	/* Только для оформления сетки */
+  	min-height: 330px;
+}
+
+.index-content-right {
+	float: right;
+	width: 300px;
+	/* Только для оформления сетки */
+  	min-height: 330px;
+}
+
+.footer-index {
+	margin-top: 65px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.footer {
+	margin-top: 50px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.footer-contacts {
+	float: left;
+	width: 320px;
+	margin-right: 60px;
+	/* Только для оформления сетки */
+  	min-height: 90px;
+}
+
+.footer-social {
+	float: left;
+	width: 180px;
+	/* Только для оформления сетки */
+  	min-height: 90px;
+}
+
+.footer-copyright {
+	float: right;
+	width: 180px;
+	/* Только для оформления сетки */
+  	min-height: 90px;
+}
+
+.main-header {
+	margin-bottom: 55px;
+}
+
+.logo {
+	float: left;
+	width: 140px;
+	margin-right: 40px;
+	/* Только для оформления сетки */
+  	min-height: 70px;
+}
+.product-nav {	
+	margin-bottom: 55px;
+}
+
+.shop-content-left {
+	width: 220px;
+	float: left;
+	margin-right: 20px;
+	/* Только для оформления сетки */
+  	min-height: 680px;
+}
+.shop-content-right {
+	width: 700px;
+	float: right;
+	/* Только для оформления сетки */
+  	min-height: 680px;
+}
+
+.product-content_left {
+	width: 460px;
+	float: left;
+	margin-right: 90px;
+	/* Только для оформления сетки */
+  	min-height: 680px;
+}
+
+.product-content_right {
+	width: 390px;
+	float: right;
+	margin-right: 0px;
+	/* Только для оформления сетки */
+  	min-height: 680px;
+}
+
+.slogan h2{	
+	width: auto;
+	text-align: center;
+	font-size: 48px;
+
+}
+
+.pricelist-content {
+	margin-bottom: 67px;
+}
+
+.pricelist-content-left {
+	width: 380px;
+	float: left;
+	margin-right: 100px;	
+}
+
+.pricelist-content-right {
+	width: 460px;
+	float: right;
+}
+
+.pricelist-content-left h2,
+.pricelist-content-right h2 {
+	margin-top: 0;
+	margin-bottom: 0; /*принудительно обнулила маргины */
+}
+
+.about-left {
+	width: 380px;
+	float: left;
+	margin-right: 100px;
+}
+.about-right {
+	width: 380px;
+	float: left;
+	margin-right: 0;
+}
+
+.about h2 {
+	margin-bottom: 30px;
+}
+/*
+.product-nav h1{
+	margin-bottom: 20px;	
+}
+main.product {
+	background: url("../img/background-main.png") repeat;
+	width: 1200px;
+	min-height: 910px;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product-nav li{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.description p, 
+span .price,
+.producers label,
+p.about-left,
+p.about-right {
+	color: #000000;
+}
+
+.main-navigation li {
+	display: inline-block;
+}
+
+.main-header {	
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+ul.product-breadcrumbs {
+	padding-left: 0;
+}
+.product-foto-main {	
+	margin-bottom: 20px;
+}
+.product-foto {
+	width: 140px;
+	display: inline-block;	
+	margin-right: 16px;
+}
+.product-foto:last-child {	
+	margin-right: 0px;
+}
+
+.description-features .presence {
+	width: 150px;
+	float: left;
+	margin-right: 90px;
+}
+.description-features .good-article {
+	width: 150px;
+	float: right;
+	margin-right: 0;
+}
+.description-features {	
+	margin-bottom: 35px;
+}
+p.description-product {
+	width: auto;
+	margin-bottom: 40px;
+}
+.description-buy {
+	width: 190px;
+	height: 25px;
+	padding: 10px auto;
+	margin-bottom: 67px;
+}
+.description-buy .price {
+	width: 110px;	
+	float: left;
+	margin-right: 0;
+}
+.description-buy .btn {
+	width: 80px;	
+	float: left;	
+}
+.description h2 {
+	margin-bottom: 35px;
+}
+ul.description-list {
+	padding-left: 15px;
+	color: #000000;
+}
+
+.selection-item {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.selection-item:nth-child(3n) {	
+	margin-right: 0;	
+}
+.producers-item {
+	display: block;
+}
+.products-groups-item {
+	display: block;
+}
+h2 .slogan {		
+	text-align: center;
+	margin-bottom: 73px;	
+}
+.pricelist-content {
+	margin-bottom: 65px;
+}
+
+.about {
+	margin-bottom: 35px;
+}
+*/
+/*
+body {
+  padding: 3px;
+}
+
+body > *,
+body > * > *,
+body > * > * > * {
+  position: relative;
+}
+
+body > *::before,
+body > * > *::before,
+body > * > * > *::before {
+  content: "";
+  position: absolute;
+
+  height: 24px;
+  padding: 2px 5px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Courier New", monotype;
+  white-space: nowrap;
+}
+
+body > *::before {
+  top: -3px;
+  left: -3px;
+}
+
+body > * > *::before {
+  top: -3px;
+  left: -3px;
+}
+
+body > * > * > *::before {
+  top: 0;
+  left: 0;
+}
+
+body > * {
+  background: rgba(0, 128, 0, 0.2);
+  box-shadow: 0 0 0 3px green;
+}
+
+body > *::before {
+  color: white;
+
+  background: green;
+}
+
+body > * > * {
+  background: rgba(255, 45, 82, 0.2);
+  box-shadow: 0 0 0 3px rgb(255, 45, 82);
+}
+
+body > * > *::before {
+  color: white;
+
+  background: rgb(255, 45, 82);
+}
+
+.main-header::before {
+  content: ".main-header";
+}
+
+.container::before {
+  content: ".container";
+}
+
+.main-header .container::before {
+  top: auto;
+  bottom: -28px;
+}*/

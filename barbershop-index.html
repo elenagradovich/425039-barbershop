@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 	<head>
 		<meta charset="utf-8">
@@ -5,11 +6,11 @@
 		<link href="css/barbershop-style.css" rel="stylesheet">
 		<link href="css/barbershop-normalize.css" rel="stylesheet">
 	</head>
-	<body>
-		<header class="main-header">
-			<div class="container">
-				<nav class="main-navigation">								
-					<ul class="main-navigation_list">					
+	<body>		
+		<header class="main-header-index" >	
+			<div class="container clearfix">		
+				<nav class="main-navigation">					
+					<ul class="main-navigation_list">			
 						<li class="main-navigation_item">
 							<a href="#">ИНФОРМАЦИЯ</a>
 						</li>				
@@ -29,88 +30,91 @@
 				</nav>							
 				<div class="user-block">
 					<a href="#">ВХОД</a>
-				</div>
-			</div>
-		</header>		
+				</div>	
+			</div>		
+		</header>
 
-		<main class="container">
-			<div class="logo">				
-				<img src="img/logo-main.png" alt="logo" width="368" height="204">			
-			</div>	
-			<section class="features">
-				<div class="features-item">
-					<b class="Быстро">БЫСТРО</b>
-					<p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>	
-				</div>
-				<div class="features-item">
-					<b class="Круто">КРУТО</b>
-					<p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ</p>	
-				</div>
-				<div class="features-item">
-					<b class="Дорого">ДОРОГО</b>
-					<p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕННЫЙ СТАТУС?</p>
-				</div>				
-			</section>
-
-			<div class="index-content">
-				<div class="index-content-left">
-					<h2 class="index-content-title">НОВОСТИ</h2>
-					<ul class="news-preview">
-						<li>
-							<p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМЕЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
-							<time datetime="2016-01-18">18 января</time>
-						</li>
-						<li>
-							<p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДАТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
-							<time datetime="2016-01-18">18 января</time>
-						</li>
-					</ul>
-					<a class="btn" href="#">ВСЕ НОВОСТИ</a>
-				</div>
-				<div class="index-content-right">
-					<h2 class="index-content-title">ФОТОГАЛЕРЕЯ</h2>
-					<div class="gallery">
-						<figure class="gallery-content">
-							<img src="img/foto1.jpg" alt="Room design" width="286" height="164">
-						</figure>
-						<button type="button" class="btn gallery-prev">НАЗАД</button>
-						<button type="button" class="btn gallery-next">ВПЕРЕД</button>
-					</div>					
-				</div>
-			</div>
-
-			<div class="index-content">
-				<div class="index-content-left">
-					<h2 class="index-content-title">КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
-					<p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
-			            АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
-			            ТЕЛЕФОН: +7 (812) 666-02-66</p>
-		          	<p>ВРЕМЯ РАБОТЫ:<br>ПН — ПТ: С 10:00 ДО 22:00<br>СБ — ВС: С 10:00 ДО 19:00</p>
-		          	<a class="btn" href="#">КАК ПРОЕХАТЬ</a>
-          			<a class="btn" href="#">ОБРАТНАЯ СВЯЗЬ</a>
-				</div>
-				<div class="index-content-right">
-					<h2 class="index-content-title">ЗАПИСАТЬСЯ</h2>
-					<form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
-			            <input type="text" name="date" value="" placeholder="ДАТА">
-			            <input type="text" name="time" value="" placeholder="ВРЕМЯ">
-			            <input type="text" name="name" value="" placeholder="ВАШЕ ИМЯ">
-			            <input type="tel" name="phone" value="" placeholder="ТЕЛЕФОН">
-			            <button type="submit" class="btn">ОТПРАВИТЬ</button>
-          			</form>
-				</div>
-			</div>			
-		</main>
-
-		<footer class="main-footer">
+		<main>
 			<div class="container">
-				<section type="footer-contacts">
+				<div class="main-logo">				
+					<img src="img/logo-main.png" alt="logo" width="368" height="204">	
+				</div>	
+				<section class="features clearfix">
+					<div class="features-item">
+						<b class="Быстро">БЫСТРО</b>
+						<p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>	
+					</div>
+					<div class="features-item">
+						<b class="Круто">КРУТО</b>
+						<p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ</p>	
+					</div>
+					<div class="features-item">
+						<b class="Дорого">ДОРОГО</b>
+						<p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕННЫЙ СТАТУС?</p>
+					</div>				
+				</section>
+
+				<div class="index-content clearfix">
+					<div class="index-content-left">
+						<h2 class="index-content-title">НОВОСТИ</h2>
+						<ul class="news-preview">
+							<li>
+								<p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМЕЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+								<time datetime="2016-01-18">18 января</time>
+							</li>
+							<li>
+								<p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДАТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+								<time datetime="2016-01-18">18 января</time>
+							</li>
+						</ul>
+						<a class="btn" href="#">ВСЕ НОВОСТИ</a>
+					</div>
+					<div class="index-content-right">
+						<h2 class="index-content-title">ФОТОГАЛЕРЕЯ</h2>
+						<div class="gallery">
+							<figure class="gallery-content">
+								<img src="img/foto1.jpg" alt="Room design" width="286" height="164">
+							</figure>
+							<button type="button" class="btn gallery-prev">НАЗАД</button>
+							<button type="button" class="btn gallery-next">ВПЕРЕД</button>
+						</div>					
+					</div>
+				</div>
+
+				<div class="index-content clearfix">
+					<div class="index-content-left">
+						<h2 class="index-content-title">КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+						<p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+				            АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+				            ТЕЛЕФОН: +7 (812) 666-02-66</p>
+			          	<p>ВРЕМЯ РАБОТЫ:<br>ПН — ПТ: С 10:00 ДО 22:00<br>СБ — ВС: С 10:00 ДО 19:00</p>
+			          	<a class="btn" href="#">КАК ПРОЕХАТЬ</a>
+	          			<a class="btn" href="#">ОБРАТНАЯ СВЯЗЬ</a>
+					</div>
+					<div class="index-content-right">
+						<h2 class="index-content-title">ЗАПИСАТЬСЯ</h2>
+						<form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+				            <input type="text" name="date" value="" placeholder="ДАТА">
+				            <input type="text" name="time" value="" placeholder="ВРЕМЯ">
+				            <input type="text" name="name" value="" placeholder="ВАШЕ ИМЯ">
+				            <input type="tel" name="phone" value="" placeholder="ТЕЛЕФОН">
+				            <button type="submit" class="btn">ОТПРАВИТЬ</button>
+	          			</form>
+					</div>
+				</div>	
+			</div>		
+		</main>
+		
+
+		<footer class="footer-index">
+			<div class="container clearfix">
+				<section class="footer-contacts">
 					<p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
           			АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br></p>
           			<a href="#">КАК НАС НАЙТИ?</a><br>
           			ТЕЛЕФОН: +7 (812) 666-02-66
 				</section>
-				<section type="footer-social">
+				<section class="footer-social">
 					<p>ДАВАЙТЕ ДРУЖИТЬ!</p>
 					<a class="social-btn social-btn-vk"	href="#">ВКОНТАКТЕ</a>
 					<a class="social-btn social-btn-fb"	href="#">ФЕЙСБУК</a>

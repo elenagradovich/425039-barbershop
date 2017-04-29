@@ -3,12 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<title>HTML Academy: Барбершоп</title>
-		<link href="css/barbershop_style.css" rel="stylesheet">
 		<link href="css/barbershop-normalize.css" rel="stylesheet">
+		<link href="css/barbershop-style.css" rel="stylesheet">
 	</head>
-	<body>
+	<body>		
 		<header class="main-header">
-			<div class="container">
+			<div class="container clearfix">
 				<nav class="main-navigation">
 					<div class="logo">
 						<a href="barbershop-index.html">
@@ -23,7 +23,7 @@
 							<a href="#">НОВОСТИ</a>
 						</li>
 						<li class="main-navigation_item">
-							<a href="barbershop-price">ПРАЙС-ЛИСТ</a>
+							<a href="barbershop-price.html">ПРАЙС-ЛИСТ</a>
 						</li>
 						<li class="main-navigation_item">
 							<a href="#">МАГАЗИН</a>
@@ -36,79 +36,83 @@
 				<div class="user-block">
 					<a href="#">ВХОД</a>
 				</div>
-			</div>
+			</div>				
 		</header>		
 
-		<main class="container">
-			<div class="product-nav">
-				<h1>ПРАЙС-ЛИСТ</h1>
-				<ul class="products-breadcrumbs">
-					<li>
-						<a href="barbershop-index.html">ГЛАВНАЯ</a>	
-					</li>
-					<li>
-						<a>ПРАЙС-ЛИСТ</a>
-					</li>				
-				</ul>
-			</div>
-			<div class="slogan">
-				<h2>ИСТИННО МУЖСКАЯ КЛАССИКА</h2>
-			</div>
-			<div class="pricelist-content">	
-				<div class="pricelist-content-left"> 
-					<h2>МЫ ИСПОЛЬЗУЕМ ТОЛЬКО<br>
-						ЛУЧШИЕ СРЕДСТВА:</h2>
-					<ul class="cosmetics">
-						<li class="cosmetics-item">BAXTER OF CALIFORNIA</li>
-						<li class="cosmetics-item">MR NATTY</li>
-						<li class="cosmetics-item">SUAVECITO</li>
-						<li class="cosmetics-item">MALIN+GOETZ</li>
+		<main class="product">
+			<div class="container">
+				<div class="product-nav clearfix">
+					<h1>ПРАЙС-ЛИСТ</h1>
+					<ul class="product-breadcrumbs">
+						<li>
+							<a href="barbershop-index.html">ГЛАВНАЯ</a>	
+						</li>
+						<li>
+							<a>ПРАЙС-ЛИСТ</a>
+						</li>				
 					</ul>
-				</div> 			
+				</div>
+				<div class="slogan">
+					<h2>ИСТИННО МУЖСКАЯ КЛАССИКА</h2>		
+				</div>				
+				
 
-				<div class="pricelist-content-right"> 
-					<h2>ЦЕНЫ НА УСЛУГИ <br>
-					НАШИХ МАСТЕРОВ:</h2>
-					<table  class="prices">
-						<tr>
-							<td>СТРИЖКА</td>
-							<td>1500 Р.</td>
-						</tr>
-						<tr>
-							<td>СТРИЖКА БОРОДЫ</td>
-							<td>500 Р.</td>
-						</tr>
-						<tr>
-							<td>НАКРУТКА УСОВ</td>
-							<td>350 Р.</td>
-						</tr>
-					</table>
-				</div>	
-			</div>
+				<div class="pricelist-content clearfix">	
+					<div class="pricelist-content-left"> 
+						<h2>МЫ ИСПОЛЬЗУЕМ ТОЛЬКО<br>
+							ЛУЧШИЕ СРЕДСТВА:</h2>
+						<ul class="cosmetics">
+							<li class="cosmetics-item">BAXTER OF CALIFORNIA</li>
+							<li class="cosmetics-item">MR NATTY</li>
+							<li class="cosmetics-item">SUAVECITO</li>
+							<li class="cosmetics-item">MALIN+GOETZ</li>
+						</ul>
+					</div> 			
 
-			<div class="about">
-				<h2>НЕСКОЛЬКО СЛОВ О НАС:</h2>
-				<P class="about-left">НАША ПАРИКМАХЕРСКАЯ ЗАНИМАЕТСЯ ИСКЛЮЧИТЕЛЬНО МУЖСКИМИ<br>
-					 СТРИЖКАМИ. СТРИЖКА КАЖДОГО КЛИЕНТА ДЛЯ НАС - ЭТО УНИКАЛЬНАЯ<br>
-					 И ПРОДУМАННАЯ ДО МЕЛОЧЕЙ РАБОТА. МЫ НЕ АРБОТАЕМ НА<br>
-					 КОЛИЧЕСТВО, МЫ ДЕЛАЕМ КАЧЕСТВО.</P>				
-				<p class="about-right">НАША МАСТЕРСКАЯ РАСПОЛОЖЕНА В ЦЕНТРЕ ГОРОДА, ПОЭТОМУ <br>
-					СДЕЛАТЬ СТИЛЬНУЮ СТРИЖКУ МОЖНО В ЛЮБОЕ УДОБНОЕ ВРЕМЯ, ДАЖЕ В <br>
-					ОБЕДЕННЫЙ ПЕРЕРЫВ. ЗДЕСЬ ВЫ МОЖЕТЕ ПОГРУЗИТЬСЯ В УДОБНУЮ <br>
-					ДЛЯ ВАС АТМОСФЕРУ, ЧУВСТВОВАТЬ СЕБЯ КОМФОРТНО И СВОБОДНО!
-				</p>				
+					<div class="pricelist-content-right"> 
+						<h2>ЦЕНЫ НА УСЛУГИ <br>
+						НАШИХ МАСТЕРОВ:</h2>
+						<table  class="prices">
+							<tr>
+								<td>СТРИЖКА</td>
+								<td>1500 Р.</td>
+							</tr>
+							<tr>
+								<td>СТРИЖКА БОРОДЫ</td>
+								<td>500 Р.</td>
+							</tr>
+							<tr>
+								<td>НАКРУТКА УСОВ</td>
+								<td>350 Р.</td>
+							</tr>
+						</table>
+					</div>	
+				</div>
+
+				<div class="about clearfix">
+					<h2>НЕСКОЛЬКО СЛОВ О НАС:</h2>
+					<P class="about-left">НАША ПАРИКМАХЕРСКАЯ ЗАНИМАЕТСЯ ИСКЛЮЧИТЕЛЬНО МУЖСКИМИ<br>
+						 СТРИЖКАМИ. СТРИЖКА КАЖДОГО КЛИЕНТА ДЛЯ НАС - ЭТО УНИКАЛЬНАЯ<br>
+						 И ПРОДУМАННАЯ ДО МЕЛОЧЕЙ РАБОТА. МЫ НЕ АРБОТАЕМ НА<br>
+						 КОЛИЧЕСТВО, МЫ ДЕЛАЕМ КАЧЕСТВО.</P>				
+					<p class="about-right">НАША МАСТЕРСКАЯ РАСПОЛОЖЕНА В ЦЕНТРЕ ГОРОДА, ПОЭТОМУ <br>
+						СДЕЛАТЬ СТИЛЬНУЮ СТРИЖКУ МОЖНО В ЛЮБОЕ УДОБНОЕ ВРЕМЯ, ДАЖЕ В <br>
+						ОБЕДЕННЫЙ ПЕРЕРЫВ. ЗДЕСЬ ВЫ МОЖЕТЕ ПОГРУЗИТЬСЯ В УДОБНУЮ <br>
+						ДЛЯ ВАС АТМОСФЕРУ, ЧУВСТВОВАТЬ СЕБЯ КОМФОРТНО И СВОБОДНО!
+					</p>				
+				</div>
 			</div>
 		</main>		
 
-		<footer class="main-footer">
-			<div class="container">
-				<section type="footer-contacts">
+		<footer class="footer">
+			<div class="container clearfix">
+				<section class="footer-contacts">
 					БАРБЕРШОП «БОРОДИНСКИЙ»<br>
           			АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
           			<a href="#">КАК НАС НАЙТИ?</a><br>
           			ТЕЛЕФОН: +7 (812) 666-02-66
 				</section>
-				<section type="footer-social">
+				<section class="footer-social">
 					<p>ДАВАЙТЕ ДРУЖИТЬ!</p>
 					<a class="social-btn social-btn-vk"	href="#">ВКОНТАКТЕ</a>
 					<a class="social-btn social-btn-fb"	href="#">ФЕЙСБУК</a>

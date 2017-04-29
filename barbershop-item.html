@@ -3,12 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<title>HTML Academy: Барбершоп</title>
-		<link href="css/barbershop_style.css" rel="stylesheet">
+		<link href="css/barbershop-style.css" rel="stylesheet">
 		<link href="css/barbershop-normalize.css" rel="stylesheet">
 	</head>
 	<body>
-		<header class="main-header">
-			<div class="container">
+		<header class="main-header">	
+			<div class="container clearfix">					
 				<nav class="main-navigation">
 					<div class="logo">
 						<a href="barbershop-index.html">
@@ -35,78 +35,82 @@
 				</nav>							
 				<div class="user-block">
 					<a href="#">ВХОД</a>
-				</div>
-			</div>
-		</header>		
+				</div>				
+			</div>	
+		</header>	
 
 		<main class="product">
-			<div class="product-nav">
-				<h1 class="product-name">НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</h1>
-				<ul class="product-breadcrumbs">
-					<li>
-						<a href="barbershop-index.html">ГЛАВНАЯ</a>	
-					</li>
-					<li>
-						<a href="#">МАГАЗИН</a>
-					</li>
-					<li>
-						<a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
-					</li>
-					<li>
-						<a>НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</a>
-					</li>
-				</ul>
-			</div>
-			<div class="product-content">
-				<div class="product-content_left">
-					<div class="product-fotos">
-						<img class="product-fotos-main" src="img/foto-set1.png" alt="Набор_1" width="486" height="524">		
-						<div class="product-fotos">
-							<a href="#">
-								<img class="product-fotos2" src="img/foto-set2.png" alt="Набор" width="166" height="175">
-							</a>
-							<a>
-								<img class="product-fotos3" src="img/foto-set3.png" alt="Набор" width="166" height="175">
-							</a>
-							<a>
-								<img class="product-fotos4" src="img/foto-set4.png" alt="Набор" width="166" height="175">
-							</a>							
-						</div>
-					</div>
+			<div class="container clearfix">			
+				<div class="product-nav">
+					<h1>НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</h1>
+					<ul class="product-breadcrumbs">
+						<li>
+							<a href="barbershop-index.html">ГЛАВНАЯ</a>	
+						</li>
+						<li>
+							<a href="#">МАГАЗИН</a>
+						</li>
+						<li>
+							<a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
+						</li>
+						<li>
+							<a>НАБОР ДЛЯ ПУТЕШЕСТВИЙ «BAXTER OF CALIFORNIA»</a>
+						</li>
+					</ul>
 				</div>
-				<div class="product-content_right">
-					<div class="description">
-						<div class="description-features">
-							<p class="presence">ЕСТЬ В НАЛИЧИИ</p>
-							<p class="good-article">АРТИКУЛ: DEXTER-AE</p>	
+				<div class="product-content clearfix">
+					<div class="product-content_left">		
+						<img class="product-foto-main" src="img/foto-set1.jpg" alt="Набор_1" width="460" height="498">		
+						<div class="product-foto">
+							<a href="#">
+								<img src="img/foto-set2.jpg" alt="Набор" width="140" height="149">
+							</a>
 						</div>
-						<p class="description-product">TRAVEL KIT – НЕОБХОДИМЫЙ АКСЕССУАР ВО ВРЕМЯ ЛЮБОГО ПУТЕШЕСТВИЯ. В АККУРАТНОЙ КОЖАННОЙ СУМКЕ НАХОДИТСЯ ВСЕ, ЧТО НУЖНО ДЛЯ БРИТЬЯ И УХОДА ЗА КОЖЕЙ ВО ВРЕМЯ РАБОЧЕЙ ПОЕЗДКИ ИЛИ ОТДЫХА: СРЕДСТВО ДЛЯ УМЫВАНИЯ, УВЛАЖНЯЮЩИЙ КРЕМ, КРЕМ ДЛЯ БРИТЬЯ, КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ. НАБОР ТАКЖЕ МОЖЕТ СТАТЬ ОТЛИЧНЫМ ПОДАРКОМ. </p>
-						<div class="description-buy">
-							<p class="price">2 900 РУБ.</p> 
-							<a class="btn" href="#">КУПИТЬ</a>
+						<div class="product-foto">
+							<a>
+								<img src="img/foto-set3.jpg" alt="Набор" width="140" height="149">
+							</a>
+						</div>	
+						<div class="product-foto">
+							<a>
+								<img src="img/foto-set4.jpg" alt="Набор" width="140" height="149">
+							</a>							
+						</div>						
+					</div>
+					<div class="product-content_right">
+						<div class="description">
+							<div class="description-features clearfix">
+								<p class="presence">ЕСТЬ В НАЛИЧИИ</p>
+								<p class="good-article">АРТИКУЛ: DEXTER-AE</p>	
+							</div>
+							<p>TRAVEL KIT – НЕОБХОДИМЫЙ АКСЕССУАР ВО ВРЕМЯ ЛЮБОГО ПУТЕШЕСТВИЯ. В АККУРАТНОЙ КОЖАННОЙ СУМКЕ НАХОДИТСЯ ВСЕ, ЧТО НУЖНО ДЛЯ БРИТЬЯ И УХОДА ЗА КОЖЕЙ ВО ВРЕМЯ РАБОЧЕЙ ПОЕЗДКИ ИЛИ ОТДЫХА: СРЕДСТВО ДЛЯ УМЫВАНИЯ, УВЛАЖНЯЮЩИЙ КРЕМ, КРЕМ ДЛЯ БРИТЬЯ, КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ. НАБОР ТАКЖЕ МОЖЕТ СТАТЬ ОТЛИЧНЫМ ПОДАРКОМ. </p>
+							<div class="description-buy">
+								<p class="price">2 900 РУБ.</p> 
+								<a class="btn" href="#">КУПИТЬ</a>
+							</div>
+							<h2>В НАБОР ВХОДЯТ:</h2>
+							<ul class="description-list">
+								<li class="description-item">СРЕДСТВО ДЛЯ УМЫВАНИЯ (50 МЛ)</li>
+								<li class="description-item">УВЛАЖНЯЮЩИЙ КРЕМ (50 МЛ)</li>
+								<li class="description-item">КРЕМ ДЛЯ БРИТЬЯ (50 МЛ)</li>
+								<li class="description-item">КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ (50 МЛ)</li>
+								<li class="description-item">УДОБНАЯ КОЖАНАЯ КОСМЕТИЧКА</li>
+							</ul>
 						</div>
-						<h2>В НАБОР ВХОДЯТ:</h2>
-						<ul>
-							<li>СРЕДСТВО ДЛЯ УМЫВАНИЯ (50 МЛ)</li>
-							<li>УВЛАЖНЯЮЩИЙ КРЕМ (50 МЛ)</li>
-							<li>КРЕМ ДЛЯ БРИТЬЯ (50 МЛ)</li>
-							<li>КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ (50 МЛ)</li>
-							<li>УДОБНАЯ КОЖАНАЯ КОСМЕТИЧКА</li>
-						</ul>
 					</div>
 				</div>
 			</div>
 		</main>
 
-		<footer class="main-footer">
-			<div class="container">
-				<section type="footer-contacts">
+		<footer class="footer">
+			<div class="container clearfix">
+				<section class="footer-contacts">
 					БАРБЕРШОП «БОРОДИНСКИЙ»<br>
           			АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
           			<a href="#">КАК НАС НАЙТИ?</a><br>
           			ТЕЛЕФОН: +7 (812) 666-02-66
 				</section>
-				<section type="footer-social">
+				<section class="footer-social">
 					<p>ДАВАЙТЕ ДРУЖИТЬ!</p>
 					<a class="social-btn social-btn-vk"	href="#">ВКОНТАКТЕ</a>
 					<a class="social-btn social-btn-fb"	href="#">ФЕЙСБУК</a>
